@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Inter';
+}
+
+
+/* Organizando o header */
+header {
+    background-color: #8C502B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 20px;
+    color: white;
+    height: 10vh;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+/* Organizando o menu */
+a {
+    color: white;
+    text-decoration: none;
+}
+a:after {
+    content: " | ";
+}
+a:last-child:after {
+    content: none;
+}
+a:hover {
+    color:#dfaf92; 
+}
+
+
+/* organização em linha */
+.org_linha {
+    display: flex;
+    flex-direction: row;
+}
+
+/* organização em coluna */
+.org_coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Organizando a primeira section */
+.div_img {
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.img_eu {
+    width: 20vw;
+    height: 55vh;
+    padding-right: 8vw;
+}
+
+/* organizando a parte do sobre */
+.div_sobre {
+    width: 50vw;
+    height: 20vh;
+    display: flex;
+    align-items: end;
+}
+.tit_sobre {
+    padding-left: 8vw;
+}
+
+/* div 3 */
+.div_texto {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    display: flex;
+    align-items: baseline;
+}
+.texto {
+    padding-left: 8vw;
+    padding-top: 5vh; 
+}
+
+
+/* organizando a segunda section */
+.sobre_hab {
+    align-items: center;
+}
+
+.div_hab {
+    width: 90vw;
+    border-bottom: 2px #8C502B solid;
+    padding-top: 6vh;
+}
+.tit_hab {
+    padding-left: 2vw;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+    padding-top: 8vh;
+    padding-bottom: 15vh;
+}
+.soft {
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px #8C502B dotted;
+    background-color: #fff2e6;
+}
+.hard {
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px #8C502B dotted;
+    background-color: #fff2e6;
+}
+
+
+footer {
+    background-color: #8C502B;
+    display: flex;
+    align-items: flex-end;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
