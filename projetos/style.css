@@ -6,19 +6,6 @@
     font-family: 'Inter';
 }
 
-main {
-    display: flex;
-    justify-content: center;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    width: 20vw;
-    margin-top: 10vh;
-    margin-bottom: 20vh;
-}
 
 /* Organizando o header */
 header {
@@ -49,6 +36,26 @@ a:last-child:after {
 }
 a:hover {
     color:#dfaf92; 
+}
+
+
+.tit_projetos {
+    height: 12vh;
+    padding-top: 8vh;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre_proj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proj {
+    width: 92vw;
+    border-bottom: 2px #8C502B solid;
+    padding-top: 6vh;
 }
 
 

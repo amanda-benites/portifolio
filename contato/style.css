@@ -15,9 +15,9 @@ form {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    width: 20vw;
-    margin-top: 10vh;
-    margin-bottom: 20vh;
+    width: 25vw;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
 }
 
 /* Organizando o header */
@@ -49,6 +49,40 @@ a:last-child:after {
 }
 a:hover {
     color:#dfaf92; 
+}
+
+form {
+    gap: 8px;
+}
+
+input {
+    background-color: rgb(235, 235, 235);
+    border: none;
+    padding: 1.8vh;
+    border-radius: 30px;
+    margin-bottom: 8px;
+}
+input:hover {
+    border: 2px #8C502B solid;
+}
+
+textarea {
+    background-color: rgb(235, 235, 235);
+    border: none;
+    padding: 0.8vh;
+    border-radius: 30px;
+    margin-bottom: 8px;
+}
+textarea:hover {
+    border: 2px #8C502B solid;
+}
+
+button {
+    background-color: #8C502B;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 2vh;
 }
 
 footer {
