@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Inter';
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 25vw;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+/* Organizando o header */
+header {
+    background-color: #8C502B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 20px;
+    color: white;
+    height: 10vh;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+/* Organizando o menu */
+a {
+    color: white;
+    text-decoration: none;
+}
+.contato {
+    color: #dfaf92;
+}
+a:after {
+    content: " | ";
+}
+a:last-child:after {
+    content: none;
+}
+a:hover {
+    color:#dfaf92; 
+}
+
+form {
+    gap: 8px;
+}
+
+input {
+    background-color: rgb(235, 235, 235);
+    border: none;
+    padding: 1.8vh;
+    border-radius: 30px;
+    margin-bottom: 8px;
+}
+input:hover {
+    border: 2px #8C502B solid;
+}
+
+textarea {
+    background-color: rgb(235, 235, 235);
+    border: none;
+    padding: 0.8vh;
+    border-radius: 30px;
+    margin-bottom: 8px;
+}
+textarea:hover {
+    border: 2px #8C502B solid;
+}
+
+button {
+    background-color: #8C502B;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 2vh;
+}
+
+footer {
+    background-color: #8C502B;
+    display: flex;
+    align-items: flex-end;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

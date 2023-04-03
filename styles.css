@@ -28,6 +28,9 @@ a {
     color: white;
     text-decoration: none;
 }
+.home {
+    color: #dfaf92;
+}
 a:after {
     content: " | ";
 }
@@ -119,8 +122,8 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px #8C502B dotted;
-    background-color: #fff2e6;
+    border-radius: 30px;
+    background-color: rgb(235, 235, 235);
 }
 .hard {
     width: 30vw;
@@ -128,8 +131,12 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px #8C502B dotted;
-    background-color: #fff2e6;
+    border-radius: 30px;
+    background-color: rgb(235, 235, 235);
+}
+
+.skills_tit {
+    margin-top: 3vh;
 }
 
 

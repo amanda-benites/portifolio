@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Inter';
+}
+
+
+/* Organizando o header */
+header {
+    background-color: #8C502B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 20px;
+    color: white;
+    height: 10vh;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+/* Organizando o menu */
+.a_menu {
+    color: white;
+}
+.projeto {
+    color: #dfaf92;
+}
+.a_menu:after {
+    content: " | ";
+}
+.a_menu:last-child:after {
+    content: none;
+}
+.a_menu:hover {
+    color:#dfaf92; 
+}
+a {
+    text-decoration: none;
+}
+
+
+.tit_projetos {
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.sobre_proj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proj {
+    width: 92vw;
+    border-bottom: 2px #8C502B solid;
+    padding-top: 6vh;
+}
+
+.front {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.divs_projetos {
+    width: 20vw;
+    height: 21vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;  
+    margin-top: 3vw;
+}
+
+.primeiro_site_21 {
+    background: url(assets/site_1_nuvem.png);
+}
+
+.primeiro_site_22 {
+    background: url(assets/site_2_textura.png);
+}
+
+.segundo_site_22 {
+    background: url(assets/site_3_planta.png);
+}
+
+.terceiro_site_22 {
+    background: url(assets/site_4_livros.jpeg);
+}
+
+.ultimo_site_22 {
+    background: url(assets/site_5_mapa.jpg);
+}
+
+.primeiro_site_23 {
+    background: url(assets/site_6_cinza.jpg);
+}
+
+.projeto_estoque {
+    background: url(assets/proj_estoque.jpg);
+}
+
+.primeir_mobile {
+    background: url(assets/proj_mobile.png);
+    margin-bottom: 3vw;
+}
+
+.cor_preta {
+    color: black;
+}
+
+.efeito:hover{
+    filter: brightness(50%);
+    color: white;
+}
+
+footer {
+    background-color: #8C502B;
+    display: flex;
+    align-items: flex-end;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
